@@ -4,3 +4,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	We git add the files on working directory to git's staging area and get ready for git commit, which get the files into repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Using git status to check staging area whether empty or not;
+	If it is empty, make sure the file only with one logical change and git add into staging area;
+	git commit the file in staging area with commit message with clarity.
