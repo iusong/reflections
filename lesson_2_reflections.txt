@@ -13,3 +13,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	"master" branch is default by git. git branch to check where we are. "git checkout + branch_name" to get to the branch.
+
+How do the diagrams help you visualize the branch structure?
+	Since each commit has its own parent, it shows us the whole commit structure.
+	git log --graph --oneline branch1 branch2 branch3... can help you
+	visualize the branch structure.
+
