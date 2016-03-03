@@ -20,12 +20,18 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Make consistency between the local/origin and the remote.
+    Make your trial or experiment on the local master.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I have to sendfing the update file to my collaborator by email. He/She will check the update, make some revision, write the comments and send it back to me. Lastly, I make the final updated.
+
+    With Git and Github, I directly add the change on a branch and push to Gihub, create a pull request to show my collaborator. If everything is OK, there are no confilct in the branch. 
+    I merge pull request. Everything is done. It is really fast.
+
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
